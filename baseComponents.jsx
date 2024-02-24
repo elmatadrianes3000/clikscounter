@@ -15,5 +15,15 @@ class Base extends Component {
     
     }
 }
- 
+ function MyComponent() {
+  return (
+    <div>
+      <button onClick={() => alert('Button clicked!')}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+export default MyComponent;
 export default Base;
